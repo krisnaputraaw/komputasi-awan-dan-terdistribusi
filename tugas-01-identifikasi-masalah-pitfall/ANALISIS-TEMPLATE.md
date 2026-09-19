@@ -5,8 +5,8 @@
 | Nama | NIM | Kontribusi |
 |---|---|---|
 | KRISNA PUTRA WICAKSANA | 103072400079 | Pitfall 1: "The Network is Reliable" |
-| ANDI ATHALLAH RADJA MALIQ MUHAMMAD | 10307240034 | [pitfall/bagian yang dikerjakan] |
-| CALVIN IMMANUEL LADO | 103072400158 | [pitfall/bagian yang dikerjakan] |
+| CALVIN IMMANUEL LADO | 103072400158 | Pitfall 2: Latency Is Zero |
+| ANDI ATHALLAH RADJA MALIQ MUHAMMAD | 103072400034 | Pitfall 3: single point of failure karena arsitektur monolitik |
 
 ## Pitfall 1: The Network is Reliable — ditulis oleh KRISNA PUTRA WICAKSANA
 
