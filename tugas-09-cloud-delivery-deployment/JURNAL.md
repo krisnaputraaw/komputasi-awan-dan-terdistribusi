@@ -1,7 +1,6 @@
 # Jurnal Proses — Tugas 9
 
 ## Diskusi deployment model
-
 - Opsi yang dipertimbangkan dan kenapa akhirnya memilih salah satu:
     1. Public Cloud murni : Dipertimbangkan karena mampu menyesuaikan kapasitas dengan cepat ketika terjadi lonjakan akses. Namun, opsi ini tidak dipilih karena data NIK dan biometrik harus tetap berada dalam infrastruktur yang sepenuhnya dikendalikan negara, terlebih lagi data biometrik tidak bisa diganti jika mengalami kebocoran.
     2. Private Cloud murni : Dipertimbangkan karena memiliki tingkat kendali dan keamanan data yang lebih tinggi serta sesuai dengan UU No. 27 Tahun 2022. Tetapi kapasitasnya perlu dipersiapkan terlebih dahulu sehingga berisiko mengalami penurunan performa ketika diakses ribuan instansi secara bersamaan.
