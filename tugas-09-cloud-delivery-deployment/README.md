@@ -43,16 +43,13 @@ Service model dibedakan menurut tingkat kendali yang dibutuhkan setiap komponen:
 Dari rancangan Hybrid Cloud kelompok kami, terhadap tiga resiko utama yang berkaitan langsung dengan sifat data kependudukan, beserta mitigasinya:
 
 1. Ketidaksinkronan data antara private cloud dan public cloud
-Perbedaan waktu pembaruan data dapat menyebabkan informasi yang ditampilkan kepada masyarakat tidak sesuai dengan kondisi terbaru, terutama saat terjadi lonjakan akses seperti pemilu dan pendaftaran sekolah.
-Mitigasi : Hanya data yang tidak sensitif, seperti status pengajuan, yang dikirim ke public cloud. Data NIK dan biometrik tetap berada di private cloud. Sinkronisasi dilakukan secara berkala menggunakan sistem pengiriman yang aman.
+Perbedaan waktu pembaruan data dapat menyebabkan informasi yang ditampilkan kepada masyarakat tidak sesuai dengan kondisi terbaru, terutama saat terjadi lonjakan akses seperti pemilu dan pendaftaran sekolah. Mitigasinya yaitu data yang tidak sensitif seperti status pengajuan yang dikirim ke public cloud. Data NIK dan biometrik tetap berada di private cloud dan sinkronisasi dilakukan secara berkala menggunakan sistem pengiriman yang aman.
 
 2. Kebocoran Data Pribadi
-Data seperti NIK, sidik jari, dan wajah sangat sensitif. Jika bocor, dampaknya sulit dipulihkan dan berpotensi melanggar UU No. 27 Tahun 2022 tentang Perlindungan Data Pribadi.
-Mitigasi: Data sensitif disimpan hanya di private cloud dalam wilayah Indonesia, dilindungi dengan enkripsi, serta menggunakan HSM untuk mengamankan kunci akses agar tidak dapat dibaca oleh penyedia public cloud.
+Data seperti NIK, sidik jari, dan wajah sangat sensitif. Jika bocor, dampaknya sulit dipulihkan dan berpotensi melanggar UU No. 27 Tahun 2022 tentang Perlindungan Data Pribadi. Mitigasinya yaitu Data sensitif disimpan hanya di private cloud dalam wilayah Indonesia, dilindungi dengan enkripsi, serta menggunakan HSM untuk mengamankan kunci akses agar tidak dapat dibaca oleh penyedia public cloud.
 
 3. Penyalahgunaan Hak Akses Instansi
-Banyaknya instansi pengguna, seperti Dukcapil, kepolisian, dan bank, berisiko menimbulkan penyalahgunaan akses atau pengambilan data melebihi kebutuhan.
-Mitigasi: Setiap instansi diberikan hak akses sesuai kebutuhannya. Contohnya, bank cukup menerima hasil verifikasi identitas tanpa melihat seluruh data warga. Selain itu, akses dibatasi dan seluruh aktivitas dicatat untuk memudahkan pemantauan serta audit.
+Banyaknya instansi pengguna, seperti Dukcapil, kepolisian, dan bank, berisiko menimbulkan penyalahgunaan akses atau pengambilan data melebihi kebutuhan. Mitigasinya yaitu Setiap instansi diberikan hak akses sesuai kebutuhannya. Contohnya, bank cukup menerima hasil verifikasi identitas tanpa melihat seluruh data warga. Selain itu, akses dibatasi dan seluruh aktivitas dicatat untuk memudahkan pemantauan serta audit.
 
 ### Jawaban Soal 4
 
