@@ -52,6 +52,11 @@ Data seperti NIK, sidik jari, dan wajah sangat sensitif. Jika bocor, dampaknya s
 Banyaknya instansi pengguna, seperti Dukcapil, kepolisian, dan bank, berisiko menimbulkan penyalahgunaan akses atau pengambilan data melebihi kebutuhan. Mitigasinya yaitu Setiap instansi diberikan hak akses sesuai kebutuhannya. Contohnya, bank cukup menerima hasil verifikasi identitas tanpa melihat seluruh data warga. Selain itu, akses dibatasi dan seluruh aktivitas dicatat untuk memudahkan pemantauan serta audit.
 
 ### Jawaban Soal 4
+Sebagai alternatif, kelompok kami mempertimbangkan penggunaan Private Cloud murni. Model ini sebenarnya memiliki keunggulan dari sisi keamanan dan kendali data karena seluruh infrastruktur dikelola secara khusus oleh pemerintah. Dengan begitu, data sensitif seperti NIK, alamat, dan biometrik dapat disimpan dalam lingkungan yang lebih terkontrol tanpa harus bergantung pada infrastruktur penyedia cloud komersial.
+
+Namun, Private Cloud murni kurang tepat untuk sistem ini karena seluruh beban akses harus ditangani oleh kapasitas infrastruktur yang dimiliki pemerintah. Ketika terjadi lonjakan permintaan dari ribuan instansi, misalnya saat pemilu atau pendaftaran sekolah, sistem berisiko mengalami penurunan performa bahkan downtime jika kapasitas yang tersedia tidak mencukupi. Penambahan sumber daya juga membutuhkan perencanaan dan pengelolaan infrastruktur tersendiri sehingga proses penyesuaiannya tidak selalu bisa dilakukan dengan cepat.
+
+Dibandingkan dengan Private Cloud murni, Hybrid Cloud lebih sesuai karena tetap mempertahankan penyimpanan data sensitif di private cloud, tetapi memungkinkan komponen yang tidak menyimpan data pribadi mentah memanfaatkan skalabilitas public cloud. Dengan demikian, kebutuhan keamanan dan kendali data tetap terpenuhi tanpa mengorbankan kemampuan sistem dalam menangani lonjakan akses.
 
 ## Struktur Submission
 
