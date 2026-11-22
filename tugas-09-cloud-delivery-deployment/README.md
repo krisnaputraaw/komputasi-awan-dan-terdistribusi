@@ -59,7 +59,6 @@ Namun, Private Cloud murni kurang tepat untuk sistem ini karena seluruh beban ak
 Dibandingkan dengan Private Cloud murni, Hybrid Cloud lebih sesuai karena tetap mempertahankan penyimpanan data sensitif di private cloud, tetapi memungkinkan komponen yang tidak menyimpan data pribadi mentah memanfaatkan skalabilitas public cloud. Dengan demikian, kebutuhan keamanan dan kendali data tetap terpenuhi tanpa mengorbankan kemampuan sistem dalam menangani lonjakan akses.
 
 ## Struktur Submission
-
 ```
 tugas-09-cloud-delivery-deployment/
 ├── README.md      # Analisis lengkap (isi dengan poin 1-4 di atas)
